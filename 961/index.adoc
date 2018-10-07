@@ -1,0 +1,16 @@
+=== 961软件工程专业基础综合
+:doctype: book
+:encoding: utf-8
+:toc: left
+:toclevels: 2
+:numbered:
+
+include::0.InvestigationGoal.adoc[]
+
+include::1.ExaminationForm.adoc[]
+
+include::2.DataStructuresAndAlgorithms.adoc[]
+
+include::3.FundamentOfComputerSystem.adoc[]
+
+include::4.SoftwareEngineering.adoc[]
