@@ -29,4 +29,16 @@
 
 ## 证明题
 
+### 证明极限存在（定义法）
 
+#### 【题目】证明：$\lim \limits_{x \rightarrow 2} (2x + 3) = 7$
+#### 【解】
+
+令
+1. $f(x) = 2x + 3$  
+2. $|(2x + 3) - 7| = 2|x - 2| < \varepsilon$  
+3. $\delta = \frac{\varepsilon}{2}$
+
+结合极限定义：  
+对于任意的 $\varepsilon > 0$（令2），存在 $\delta = \frac{\varepsilon}{2} > 0$（令3） ，在 $0 < |x - 2| < \delta$（令2、令3） 的情况下，存在 $0 < |(2x + 3) - 7| = |f(x) - 7| < \varepsilon$（令2）。  
+则得证此题。
